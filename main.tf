@@ -4,7 +4,7 @@
 	  vpc_security_group_ids = [data.aws_security_group.sg.id]
 	
 	  tags = {
-	    Name = "frontend"
+	    Name = "tf-frontend"
 	  }
 	
 	}
@@ -36,7 +36,7 @@
 	  vpc_security_group_ids = [data.aws_security_group.sg.id]
 	
 	  tags = {
-	    Name = "backend"
+	    Name = "tf-backend"
 	  }
 	}
 	
@@ -67,7 +67,7 @@
 	  vpc_security_group_ids = [data.aws_security_group.sg.id]
 	
 	  tags = {
-	    Name = "mysql"
+	    Name = "tf-mysql"
 	  }
 	}
 	
